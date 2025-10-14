@@ -117,9 +117,6 @@ function convertExcelTime(excelTime) {
     return `${String(hours).padStart(2, '0')}:${String(roundedMinutes).padStart(2, '0')}`;
 }
 
-function getRandomColor() {
-    return '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
-}
 
 function handleImageExport() {
     // 1. 캡처할 영역을 선택합니다. '.main-container'는 제목까지 포함합니다.

@@ -261,7 +261,7 @@ function timeToMinutes(time) { // "HH:MM" -> 분
     return hours * 60 + minutes;
 }
 function minutesToTime(minutes) { // 분 -> "HH:MM"
-    const hours = String(Math.floor(minutes / 60)).padStart(2, '0');
+    const hours = String(Math.floor(minutes / 60) % 24).padStart(2, '0');
     const mins = String(minutes % 60).padStart(2, '0');
     return `${hours}:${mins}`;
 }
