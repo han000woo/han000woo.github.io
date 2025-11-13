@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/cote-repo-monitoring/',
+  // base: '/cote-repo-monitoring/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
