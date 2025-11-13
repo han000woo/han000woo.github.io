@@ -24,7 +24,7 @@ jobs:
       # 3. 서브폴더(cote-repo-monitoring)로 이동 후 npm 설치
       - name: Install Dependencies
         working-directory: ./cote-repo-monitoring
-        run: npm ci
+        run: npm install
 
       # 4. 데이터 수집 스크립트 실행 (환경변수 주입)
       - name: Fetch Commit Data
