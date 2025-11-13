@@ -1,0 +1,48 @@
+name: Build and Deploy Vue Project (cote-repo-monitoring)
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 매일 자정 UTC
+  workflow_dispatch:       # 수동 실행 가능
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 레포 소스 체크아웃
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Node.js 환경 설정
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. 서브폴더(cote-repo-monitoring)로 이동 후 npm 설치
+      - name: Install Dependencies
+        working-directory: ./cote-repo-monitoring
+        run: npm ci
+
+      # 4. 데이터 수집 스크립트 실행 (환경변수 주입)
+      - name: Fetch Commit Data
+        working-directory: ./cote-repo-monitoring
+        run: node scripts/fetch-commits.js
+        env:
+          MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          ORG_NAME: ${{ secrets.ORG_NAME }}
+
+      # 5. Vue 앱 빌드
+      - name: Build Vue App
+        working-directory: ./cote-repo-monitoring
+        run: npm run build
+
+      # 6. 빌드 결과물을 gh-pages 브랜치 /cote-repo 폴더에 배포
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./cote-repo-monitoring/dist
+          destination_dir: cote-repo   # gh-pages 브랜치 서브폴더 지정
