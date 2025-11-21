@@ -2,6 +2,10 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2025-11-20",
+        "count": 1
+      },
+      {
         "date": "2025-11-19",
         "count": 1
       },
@@ -34,8 +38,16 @@
   "SS_Codetree": {
     "values": [
       {
+        "date": "2025-11-20",
+        "count": 14
+      },
+      {
+        "date": "2025-11-19",
+        "count": 24
+      },
+      {
         "date": "2025-11-18",
-        "count": 52
+        "count": 61
       },
       {
         "date": "2025-11-17",
@@ -69,6 +81,14 @@
   },
   "mingyo_Codetree": {
     "values": [
+      {
+        "date": "2025-11-20",
+        "count": 4
+      },
+      {
+        "date": "2025-11-19",
+        "count": 10
+      },
       {
         "date": "2025-11-18",
         "count": 3
@@ -105,6 +125,10 @@
   },
   "hyewon_codingtest": {
     "values": [
+      {
+        "date": "2025-11-20",
+        "count": 1
+      },
       {
         "date": "2025-11-19",
         "count": 1
