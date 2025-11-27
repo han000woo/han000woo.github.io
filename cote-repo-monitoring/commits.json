@@ -58,8 +58,12 @@
   "SS_Codetree": {
     "values": [
       {
+        "date": "2025-11-26",
+        "count": 7
+      },
+      {
         "date": "2025-11-24",
-        "count": 15
+        "count": 16
       },
       {
         "date": "2025-11-21",
@@ -174,6 +178,10 @@
   "hyewon_codingtest": {
     "values": [
       {
+        "date": "2025-11-26",
+        "count": 1
+      },
+      {
         "date": "2025-11-25",
         "count": 1
       },
@@ -207,6 +215,14 @@
       },
       {
         "date": "2025-11-17",
+        "count": 1
+      }
+    ]
+  },
+  "Hyejoon_CodingTest": {
+    "values": [
+      {
+        "date": "2025-11-26",
         "count": 1
       }
     ]
