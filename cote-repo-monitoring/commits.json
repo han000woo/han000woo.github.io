@@ -2,6 +2,14 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2025-11-27",
+        "count": 1
+      },
+      {
+        "date": "2025-11-26",
+        "count": 2
+      },
+      {
         "date": "2025-11-25",
         "count": 2
       },
@@ -224,6 +232,14 @@
       {
         "date": "2025-11-26",
         "count": 1
+      }
+    ]
+  },
+  "Isak_CodingTest": {
+    "values": [
+      {
+        "date": "2025-11-27",
+        "count": 2
       }
     ]
   }
