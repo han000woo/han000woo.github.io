@@ -2,6 +2,10 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2025-11-29",
+        "count": 2
+      },
+      {
         "date": "2025-11-28",
         "count": 1
       },
@@ -126,8 +130,16 @@
   "mingyo_Codetree": {
     "values": [
       {
+        "date": "2025-11-27",
+        "count": 8
+      },
+      {
+        "date": "2025-11-26",
+        "count": 19
+      },
+      {
         "date": "2025-11-25",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2025-11-24",
