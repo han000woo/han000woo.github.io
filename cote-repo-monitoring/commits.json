@@ -2,6 +2,10 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2025-12-08",
+        "count": 2
+      },
+      {
         "date": "2025-12-07",
         "count": 2
       },
@@ -98,8 +102,20 @@
   "SS_Codetree": {
     "values": [
       {
+        "date": "2025-12-08",
+        "count": 14
+      },
+      {
+        "date": "2025-12-04",
+        "count": 11
+      },
+      {
+        "date": "2025-12-03",
+        "count": 17
+      },
+      {
         "date": "2025-12-01",
-        "count": 24
+        "count": 25
       },
       {
         "date": "2025-11-28",
@@ -214,6 +230,14 @@
   "SS_Algo": {
     "values": [
       {
+        "date": "2025-12-09",
+        "count": 1
+      },
+      {
+        "date": "2025-12-08",
+        "count": 3
+      },
+      {
         "date": "2025-12-01",
         "count": 2
       },
@@ -241,6 +265,10 @@
   },
   "hyewon_codingtest": {
     "values": [
+      {
+        "date": "2025-12-08",
+        "count": 2
+      },
       {
         "date": "2025-12-07",
         "count": 3
@@ -310,6 +338,10 @@
   "Hyejoon_CodingTest": {
     "values": [
       {
+        "date": "2025-12-08",
+        "count": 1
+      },
+      {
         "date": "2025-12-07",
         "count": 3
       },
@@ -329,6 +361,10 @@
   },
   "Isak_CodingTest": {
     "values": [
+      {
+        "date": "2025-12-08",
+        "count": 2
+      },
       {
         "date": "2025-12-07",
         "count": 16
@@ -365,6 +401,10 @@
   },
   "samsun-codingtest": {
     "values": [
+      {
+        "date": "2025-12-08",
+        "count": 5
+      },
       {
         "date": "2025-12-03",
         "count": 4
