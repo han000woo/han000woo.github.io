@@ -2,6 +2,10 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2025-12-10",
+        "count": 1
+      },
+      {
         "date": "2025-12-09",
         "count": 1
       },
@@ -270,6 +274,10 @@
   "hyewon_codingtest": {
     "values": [
       {
+        "date": "2025-12-10",
+        "count": 2
+      },
+      {
         "date": "2025-12-08",
         "count": 2
       },
@@ -369,6 +377,10 @@
   },
   "Isak_CodingTest": {
     "values": [
+      {
+        "date": "2025-12-10",
+        "count": 3
+      },
       {
         "date": "2025-12-09",
         "count": 6
