@@ -2,6 +2,10 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2025-12-11",
+        "count": 1
+      },
+      {
         "date": "2025-12-10",
         "count": 1
       },
@@ -238,6 +242,10 @@
   "SS_Algo": {
     "values": [
       {
+        "date": "2025-12-11",
+        "count": 1
+      },
+      {
         "date": "2025-12-09",
         "count": 1
       },
@@ -377,6 +385,10 @@
   },
   "Isak_CodingTest": {
     "values": [
+      {
+        "date": "2025-12-11",
+        "count": 2
+      },
       {
         "date": "2025-12-10",
         "count": 3
