@@ -2,6 +2,10 @@
   "hansun-cote": {
     "values": [
       {
+        "date": "2026-01-04",
+        "count": 1
+      },
+      {
         "date": "2026-01-03",
         "count": 1
       },
@@ -510,6 +514,10 @@
   "Isak_CodingTest": {
     "values": [
       {
+        "date": "2026-01-04",
+        "count": 6
+      },
+      {
         "date": "2026-01-03",
         "count": 7
       },
@@ -708,6 +716,14 @@
       {
         "date": "2025-12-16",
         "count": 4
+      }
+    ]
+  },
+  "mingyo_baejoon": {
+    "values": [
+      {
+        "date": "2026-01-04",
+        "count": 1
       }
     ]
   }
