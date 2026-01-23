@@ -702,6 +702,10 @@
   "Isak_CodingTest": {
     "values": [
       {
+        "date": "2026-01-22",
+        "count": 2
+      },
+      {
         "date": "2026-01-21",
         "count": 2
       },
@@ -918,6 +922,10 @@
   "samsun-codingtest": {
     "values": [
       {
+        "date": "2026-01-22",
+        "count": 9
+      },
+      {
         "date": "2026-01-21",
         "count": 13
       },
@@ -941,6 +949,10 @@
   },
   "yongsu": {
     "values": [
+      {
+        "date": "2026-01-22",
+        "count": 1
+      },
       {
         "date": "2026-01-21",
         "count": 4
