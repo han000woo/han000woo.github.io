@@ -530,6 +530,10 @@
   "hyewon_codingtest": {
     "values": [
       {
+        "date": "2026-01-27",
+        "count": 1
+      },
+      {
         "date": "2026-01-26",
         "count": 1
       },
@@ -709,6 +713,10 @@
   },
   "Isak_CodingTest": {
     "values": [
+      {
+        "date": "2026-01-27",
+        "count": 3
+      },
       {
         "date": "2026-01-26",
         "count": 2
