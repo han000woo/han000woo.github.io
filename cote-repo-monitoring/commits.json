@@ -722,6 +722,10 @@
   "Isak_CodingTest": {
     "values": [
       {
+        "date": "2026-01-30",
+        "count": 2
+      },
+      {
         "date": "2026-01-29",
         "count": 3
       },
