@@ -458,6 +458,10 @@
   "SS_Algo": {
     "values": [
       {
+        "date": "2026-02-05",
+        "count": 1
+      },
+      {
         "date": "2026-01-24",
         "count": 1
       },
@@ -729,6 +733,10 @@
   },
   "Isak_CodingTest": {
     "values": [
+      {
+        "date": "2026-02-05",
+        "count": 1
+      },
       {
         "date": "2026-02-04",
         "count": 1
